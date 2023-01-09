@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@rneui/themed": "^4.0.0-rc.7"
+  }
+}
