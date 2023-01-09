@@ -2,7 +2,19 @@
 
 # App Inmobiliaria
 
-- [Ver instrucciones](./instructions.md)
+## Tabla de contenidos
+
+- [Descripción](#Descripción)
+- [Uso](#Uso)
+  - [Instalar dependencias](#Instalar-dependencias)
+  - [Ejecutar](#Ejecutar)
+    - [Cualquier entorno](#Cualquier-entorno)
+    - [Android](#Android)
+    - [iOS](#iOS)
+    - [Web](#Web)
+  - [Pruebas](#Pruebas)
+- [Insignias](#Insignias)
+- [Créditos](#Créditos)
 
 This README would normally document whatever steps are necessary to get the application up and running.
 
@@ -15,4 +27,43 @@ Things you may want to cover:
 - How to Use the Project.
 - Credits
 - Badges
-  
+
+## Descripción
+
+## Uso
+
+### Instalar dependencias
+
+```
+npm install
+```
+
+### Ejecutar
+
+#### Cualquier entorno
+#### Android
+
+```
+npx react-native run-android
+```
+
+#### iOS
+
+npx react-native run-ios
+```
+
+### Pruebas
+
+```
+npm test
+```
+
+## Insignias
+
+| Analizador de código           | Estado                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Codacy                         | [![Codacy](https://app.codacy.com/project/badge/Grade/2ff2741f11e94d54836ddd3658de8808)](https://www.codacy.com/gh/BrightCoders-Institute/BCDIC22-RN-recetario-cocina-team6/dashboard?utm_source=github.com&utm_medium=referral&utm_content=BrightCoders-Institute/BCDIC22-RN-recetario-cocina-team6&utm_campaign=Badge_Grade) |
+
+## Créditos
+
+- [@McFly1208](https://github.com/McFly1208)
