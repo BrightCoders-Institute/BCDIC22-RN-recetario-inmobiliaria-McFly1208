@@ -49,8 +49,9 @@ npx react-native run-android
 
 #### iOS
 
-npx react-native run-ios
 ```
+npx react-native run-ios
+
 
 ### Pruebas
 
@@ -62,7 +63,7 @@ npm test
 
 | Analizador de código           | Estado                                                                                                                                                                                                                                                                                                                         |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Codacy                         | [![Codacy](https://app.codacy.com/project/badge/Grade/2ff2741f11e94d54836ddd3658de8808)](https://www.codacy.com/gh/BrightCoders-Institute/BCDIC22-RN-recetario-cocina-team6/dashboard?utm_source=github.com&utm_medium=referral&utm_content=BrightCoders-Institute/BCDIC22-RN-recetario-cocina-team6&utm_campaign=Badge_Grade) |
+| Codacy                         | [![Codacy](https://app.codacy.com/project/badge/Grade/2ff2741f11e94d54836ddd3658de8808)]([![Codacy Badge](https://app.codacy.com/project/badge/Grade/750fc90007094a61a490084868565b82)](https://www.codacy.com/gh/BrightCoders-Institute/BCDIC22-RN-recetario-inmobiliaria-McFly1208/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrightCoders-Institute/BCDIC22-RN-recetario-inmobiliaria-McFly1208&amp;utm_campaign=Badge_Grade)) |
 
 ## Créditos
 
