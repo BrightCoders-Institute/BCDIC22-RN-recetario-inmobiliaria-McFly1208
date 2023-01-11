@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, ScrollView, Dimensions, Text, ImageBackground, Image } from 'react-native';
+import { View, StyleSheet, ScrollView, Dimensions, Text, ImageBackground, Image, TouchableOpacity } from 'react-native';
 import database from '../database/muebles.json';
 import Property from '../classes/propiedad';
 
@@ -94,6 +94,12 @@ export default class App extends Component {
 										><Image source={require('../img/icons/signo-de-dolar.png')} style={{ width: 15, height: 12, marginEnd: 6, }} />{`${item.cost}/m`}</Text>
 									</View>
 
+									<TouchableOpacity onPress={() => {
+										item.favorite = !item.favorite;
+										this.setState({ favorite: item.favorite });
+									}} >
+										<Image source={require('../img/icons/amor.png')} style={{ width: 24, height: 22, marginEnd: 6, backgroundColor: `${item.favorite ? 'red' : '#00B074'}`, borderRadius: 14 }} />
+									</TouchableOpacity>
 								</View>
 
 							</View>
