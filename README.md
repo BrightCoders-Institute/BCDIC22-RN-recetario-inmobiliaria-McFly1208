@@ -1,4 +1,4 @@
-![BrightCoders Logo](img/logo.png)
+![BrightCoders Logo](./Inmuebles/img/logo.png)
 
 # App Inmobiliaria
 
